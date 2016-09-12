@@ -1,6 +1,7 @@
 require 'watir-webdriver'
 require 'nokogiri'
 require 'pry'
+require 'json'
 
 browser = Watir::Browser.new
 browser.goto('file:///home/zik/ruby/web.html')
@@ -22,4 +23,6 @@ data.push(
     #nature:   nature
 )  
 end  
+
+puts JSON.pretty_generate(data)
 binding.pry
