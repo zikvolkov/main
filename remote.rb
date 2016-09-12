@@ -20,6 +20,6 @@ data.push(
     balance:  balance,
     currency: currency
     #nature:   nature
-    )  
+)  
 end  
 binding.pry
