@@ -14,13 +14,11 @@ page.css('.owwb-cs-slide-list-account-item').each do |i|
     account  = i.css('.contract-number').text
     balance  = i.css('.owwb-cs-slide-list-amount-value').text
     currency = i.css('.owwb-cs-slide-list-amount-currency').text
-    #nature = 
 
 data.push(  
     name:     account,
     balance:  balance,
     currency: currency
-    #nature:   nature
 )  
 end  
 
