@@ -1,353 +1,353 @@
-puts JSON.pretty_generate(data_arr)
+ruby remote.rb
 [
   {
     "name": "2259A3648041",
-    "balance": "924,14",
+    "balance": 924.0,
     "currency": "MDL",
     "nature": "Salarial Basic MDL ",
     "transactions": [
       {
         "trans_date": "30/07/16",
         "details": "Retail MDA Chisinau MAIB ROGOB  MARKET",
-        "suma": "-48.79",
+        "amount": "-48.79",
         "currency": "MDL",
-        "date": "01/08/16",
+        "date": "2016-08-01",
         "comission": " 0.00"
       },
       {
         "trans_date": "31/07/16",
         "details": "Retail LUX ITUNES.COM  ITUNES.COM/BILL",
-        "suma": "-4.99",
+        "amount": "-4.99",
         "currency": "USD",
-        "date": "01/08/16",
+        "date": "2016-08-01",
         "comission": " 0.00"
       },
       {
         "trans_date": "02/08/16",
         "details": "Retail MDA Chisinau MAIB  FIDESCO SRL",
-        "suma": "-49.25",
+        "amount": "-49.25",
         "currency": "MDL",
-        "date": "03/08/16",
+        "date": "2016-08-03",
         "comission": " 0.00"
       },
       {
         "trans_date": "03/08/16",
         "details": "Retail MDA CHISINAU CAFENEA KFC",
-        "suma": "-83.00",
+        "amount": "-83.00",
         "currency": "MDL",
-        "date": "04/08/16",
+        "date": "2016-08-04",
         "comission": " 0.00"
       },
       {
         "trans_date": "02/08/16",
         "details": "Retail MDA CHISINAU MAGAZIN N 1 TELECENTRU 6",
-        "suma": "-41.48",
+        "amount": "-41.48",
         "currency": "MDL",
-        "date": "04/08/16",
+        "date": "2016-08-04",
         "comission": " 0.00"
       },
       {
         "trans_date": "06/08/16",
         "details": "Alim.numerar ATM MDA Chisinau  (mun.) - Chisinau ATM231 MICB  Premium-2",
-        "suma": " 200.00",
+        "amount": " 200.00",
         "currency": "USD",
-        "date": "06/08/16",
+        "date": "2016-08-06",
         "comission": " 0.00"
       },
       {
         "trans_date": "06/08/16",
         "details": "Alim.numerar ATM MDA Chisinau  (mun.) - Chisinau ATM075  Primaria-1",
-        "suma": " 4 000.00",
+        "amount": " 4 000.00",
         "currency": "MDL",
-        "date": "06/08/16",
+        "date": "2016-08-06",
         "comission": " 0.00"
       },
       {
         "trans_date": "06/08/16",
         "details": "Retail MDA wb.micb.md Plati  billing",
-        "suma": "-24.26",
+        "amount": "-24.26",
         "currency": "MDL",
-        "date": "06/08/16",
+        "date": "2016-08-06",
         "comission": " 0.00"
       },
       {
         "trans_date": "08/08/16",
         "details": "Retail MDA Chisinau (mun.) -  Chisinau UNIMARKET 30 market  B",
-        "suma": "-23.60",
+        "amount": "-23.60",
         "currency": "MDL",
-        "date": " 0.00",
+        "date": "20 0.00",
         "comission": "-23.60"
       },
       {
         "trans_date": "05/08/16",
         "details": "Retail MDA Chisinau MOLDCELL MD  Recurring",
-        "suma": "-150.00",
+        "amount": "-150.00",
         "currency": "MDL",
-        "date": "08/08/16",
+        "date": "2016-08-08",
         "comission": " 0.00"
       },
       {
         "trans_date": "06/08/16",
         "details": "Retail MDA Chisinau S.A.  SUPRATEN",
-        "suma": "-5 095.52",
+        "amount": "-5 095.52",
         "currency": "MDL",
-        "date": "08/08/16",
+        "date": "2016-08-08",
         "comission": " 0.00"
       },
       {
         "trans_date": "06/08/16",
         "details": "Retail MDA Chisinau MAIB  FOXTROT MOSCOVA",
-        "suma": "-94.90",
+        "amount": "-94.90",
         "currency": "MDL",
-        "date": "08/08/16",
+        "date": "2016-08-08",
         "comission": " 0.00"
       },
       {
         "trans_date": "09/08/16",
         "details": "ATM MDA Chisinau (mun.) -  Chisinau ATM187 Filiala  Moscova",
-        "suma": "-1 600.00",
+        "amount": "-1 600.00",
         "currency": "MDL",
-        "date": " 0.00",
+        "date": "20 0.00",
         "comission": "-1 600.00"
       },
       {
         "trans_date": "09/08/16",
         "details": "Debitare card P2P MDA Chisinau  WEB_BANKING",
-        "suma": "-500.00",
+        "amount": "-500.00",
         "currency": "MDL",
-        "date": "09/08/16",
+        "date": "2016-08-09",
         "comission": " 0.00"
       },
       {
         "trans_date": "07/08/16",
         "details": "Retail MDA Chisinau McDonald  Centru MAIB",
-        "suma": "-75.00",
+        "amount": "-75.00",
         "currency": "MDL",
-        "date": "09/08/16",
+        "date": "2016-08-09",
         "comission": " 0.00"
       },
       {
         "trans_date": "10/08/16",
         "details": "ATM MDA Chisinau (mun.) -  Chisinau ATM231 MICB Premium-2",
-        "suma": "-100.00",
+        "amount": "-100.00",
         "currency": "MDL",
-        "date": "10/08/16",
+        "date": "2016-08-10",
         "comission": " 0.00"
       },
       {
         "trans_date": "09/08/16",
         "details": "Retail MDA Chisinau MAIB  FIDESCO SRL",
-        "suma": "-25.80",
+        "amount": "-25.80",
         "currency": "MDL",
-        "date": "10/08/16",
+        "date": "2016-08-10",
         "comission": " 0.00"
       },
       {
         "trans_date": "09/08/16",
         "details": "Retail MDA CHISINAU MAGAZIN  TRESMUS-GRUP",
-        "suma": "-493.48",
+        "amount": "-493.48",
         "currency": "MDL",
-        "date": "10/08/16",
+        "date": "2016-08-10",
         "comission": " 0.00"
       },
       {
         "trans_date": "09/08/16",
         "details": "Retail CHE +442031399063  VENDOSTORE*MGPREMIUM",
-        "suma": "-0.91",
+        "amount": "-0.91",
         "currency": "EUR",
-        "date": "10/08/16",
+        "date": "2016-08-10",
         "comission": " 0.00"
       },
       {
         "trans_date": "10/08/16",
         "details": "Alim.numerar ATM MDA Chisinau  (mun.) - Chisinau ATM231 MICB  Premium-2",
-        "suma": " 50.00",
+        "amount": " 50.00",
         "currency": "USD",
-        "date": "10/08/16",
+        "date": "2016-08-10",
         "comission": " 0.00"
       },
       {
         "trans_date": "10/08/16",
         "details": "Retail MDA CHISINAU  CINEMATOGRAFUL PATRIA",
-        "suma": "-500.00",
+        "amount": "-500.00",
         "currency": "MDL",
-        "date": "12/08/16",
+        "date": "2016-08-12",
         "comission": " 0.00"
       },
       {
         "trans_date": "11/08/16",
         "details": "Retail MDA CHISINAU ANDY'S  PIZZA 28",
-        "suma": "-125.00",
+        "amount": "-125.00",
         "currency": "MDL",
-        "date": "15/08/16",
+        "date": "2016-08-15",
         "comission": " 0.00"
       },
       {
         "trans_date": "12/08/16",
         "details": "Retail LUX ITUNES.COM  ITUNES.COM/BILL",
-        "suma": "-4.99",
+        "amount": "-4.99",
         "currency": "USD",
-        "date": "15/08/16",
+        "date": "2016-08-15",
         "comission": " 0.00"
       },
       {
         "trans_date": "17/08/16",
         "details": "Retail MDA Chisinau (mun.) -  Chisinau NR.1 Supermarket B",
-        "suma": "-58.37",
+        "amount": "-58.37",
         "currency": "MDL",
-        "date": "18/08/16",
+        "date": "2016-08-18",
         "comission": " 0.00"
       },
       {
         "trans_date": "18/08/16",
         "details": "ATM MDA Chisinau (mun.) -  Chisinau ATM008 Filiala Kiev",
-        "suma": "-300.00",
+        "amount": "-300.00",
         "currency": "MDL",
-        "date": " 0.00",
+        "date": "20 0.00",
         "comission": "-300.00"
       },
       {
         "trans_date": "16/08/16",
         "details": "Retail USA 425-9522985  STEAMGAMES.COM4259522985",
-        "suma": "-6.59",
+        "amount": "-6.59",
         "currency": "USD",
-        "date": "18/08/16",
+        "date": "2016-08-18",
         "comission": " 0.00"
       },
       {
         "trans_date": "20/09/16",
         "details": "20/09/16",
-        "suma": "Retail MDA CHISINAU MAGAZIN N 1 TELECENTRU 3",
+        "amount": "Retail MDA CHISINAU MAGAZIN N 1 TELECENTRU 3",
         "currency": " 48.18",
-        "date": "MDL",
+        "date": "20MDL",
         "comission": " 48.18"
       },
       {
         "trans_date": "20/09/16",
         "details": "20/09/16",
-        "suma": "Debitare card P2P MDA  Chisinau WebBanking. Card  strain",
+        "amount": "Debitare card P2P MDA  Chisinau WebBanking. Card  strain",
         "currency": " 200.00",
-        "date": "MDL",
+        "date": "20MDL",
         "comission": " 200.00"
       },
       {
         "trans_date": "19/09/16",
         "details": "19/09/16",
-        "suma": "Retail MDA CHISINAU ANDY'S  PIZZA 30",
+        "amount": "Retail MDA CHISINAU ANDY'S  PIZZA 30",
         "currency": " 295.00",
-        "date": "MDL",
+        "date": "20MDL",
         "comission": " 295.00"
       }
     ]
   },
   {
     "name": "2259A36117121",
-    "balance": "101,78",
+    "balance": 101.0,
     "currency": "MDL",
     "nature": "General Silver MDL ",
     "transactions": [
       {
         "trans_date": "31/08/16",
         "details": "SMS: Taxa mesaj suprapachet  (cont)  ",
-        "suma": " 0.00",
+        "amount": " 0.00",
         "currency": "MDL",
-        "date": "31/08/16",
+        "date": "2016-08-31",
         "comission": "-0.50"
       },
       {
         "trans_date": "31/08/16",
         "details": "SMS: Taxa mesaj suprapachet  (cont)  ",
-        "suma": " 0.00",
+        "amount": " 0.00",
         "currency": "MDL",
-        "date": "31/08/16",
+        "date": "2016-08-31",
         "comission": "-0.50"
       },
       {
         "trans_date": "09/08/16",
         "details": "Card orig. credit MDA Chisinau  WEB_BANKING",
-        "suma": " 500.00",
+        "amount": " 500.00",
         "currency": "MDL",
-        "date": "09/08/16",
+        "date": "2016-08-09",
         "comission": " 0.00"
       },
       {
         "trans_date": "10/08/16",
         "details": "Retail MDA Chisinau MAIB ROGOB  MARKET",
-        "suma": "-18.63",
+        "amount": "-18.63",
         "currency": "MDL",
-        "date": "11/08/16",
+        "date": "2016-08-11",
         "comission": " 0.00"
       },
       {
         "trans_date": "10/08/16",
         "details": "Retail MDA Chisinau McDonald  Centru MAIB",
-        "suma": "-156.00",
+        "amount": "-156.00",
         "currency": "MDL",
-        "date": "12/08/16",
+        "date": "2016-08-12",
         "comission": " 0.00"
       },
       {
         "trans_date": "12/08/16",
         "details": "Retail MDA Chisinau MAIB  FIDESCO SRL",
-        "suma": "-18.79",
+        "amount": "-18.79",
         "currency": "MDL",
-        "date": "15/08/16",
+        "date": "2016-08-15",
         "comission": " 0.00"
       },
       {
         "trans_date": "18/08/16",
         "details": "Card orig. credit MDA Chisinau  MOB_BANKING",
-        "suma": " 1 900.00",
+        "amount": " 1 900.00",
         "currency": "MDL",
-        "date": "18/08/16",
+        "date": "2016-08-18",
         "comission": " 0.00"
       },
       {
         "trans_date": "19/08/16",
         "details": "Debitare card P2P MDA Chisinau  WEB_BANKING",
-        "suma": "-1 900.00",
+        "amount": "-1 900.00",
         "currency": "MDL",
-        "date": "19/08/16",
+        "date": "2016-08-19",
         "comission": " 0.00"
       },
       {
         "trans_date": "20/08/16",
         "details": "Retail MDA wb.micb.md Plati  billing",
-        "suma": "-140.23",
+        "amount": "-140.23",
         "currency": "MDL",
-        "date": "20/08/16",
+        "date": "2016-08-20",
         "comission": " 0.00"
       },
       {
         "trans_date": "20/08/16",
         "details": "Retail MDA wb.micb.md Plati  billing",
-        "suma": "-57.82",
+        "amount": "-57.82",
         "currency": "MDL",
-        "date": "20/08/16",
+        "date": "2016-08-20",
         "comission": " 0.00"
       },
       {
         "trans_date": "20/08/16",
         "details": "Alim.numerar ATM MDA Chisinau  (mun.) - Chisinau ATM231 MICB  Premium-2",
-        "suma": " 200.00",
+        "amount": " 200.00",
         "currency": "MDL",
-        "date": "20/08/16",
+        "date": "2016-08-20",
         "comission": " 0.00"
       },
       {
         "trans_date": "29/08/16",
         "details": "Retail RUS MOSCOW PMR*PLATI",
-        "suma": "-312.18",
+        "amount": "-312.18",
         "currency": "RUB",
-        "date": "30/08/16",
+        "date": "2016-08-30",
         "comission": " 0.00"
       },
       {
         "trans_date": "31/08/16",
         "details": "31/08/16",
-        "suma": "Retail LUX ITUNES.COM  ITUNES.COM/BILL",
+        "amount": "Retail LUX ITUNES.COM  ITUNES.COM/BILL",
         "currency": " 1.98",
-        "date": "USD",
+        "date": "20USD",
         "comission": " 39.48"
       }
     ]
