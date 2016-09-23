@@ -1,4 +1,3 @@
-ruby remote.rb
 [
   {
     "name": "2259A3648041",
