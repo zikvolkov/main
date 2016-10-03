@@ -6,28 +6,29 @@ require 'json'
 def trans_array (array, hash, date_arr, index)
   array.each do |element| 
     selector = element.css('td font tt')
-    if selector[4].text.strip.gsub(/\"/,'').match(/^\d{2}\/\d{2}\/\d{2}\s*/)
-      date   = selector[4].text.strip.gsub(/\"/,'')
-      post_d = Date.strptime(date, DATE_DMY).to_json
+    tds      = selector.map { |td| td.text.strip.gsub(/\"/,'') }
+    if tds[4].match(/^\d{2}\/\d{2}\/\d{2}\s*/)
+      date   = tds[4]
+      post_d = Date.strptime(date, DATE_DMY).to_json.gsub(/\"/,'')
     else 
       date   = date_arr[index]
-      post_d = Date.strptime(date, DATE_DMY).to_json
+      post_d = Date.strptime(date, DATE_DMY).to_json.gsub(/\"/,'')
       index += 1
     end
 
     if selector.size    == 7
-      comission_element = selector[5].text.strip.gsub(/\"/,'')
-      total_element     = selector[6].text.strip.gsub(/\"/,'')
+      comission_element = tds[5]
+      total_element     = tds[6]
     elsif selector.size == 6
-      comission_element = selector[4].text.strip.gsub(/\"/,'')
-      total_element     = selector[5].text.strip.gsub(/\"/,'')
+      comission_element = tds[4]
+      total_element     = tds[5]
     end
 
     hash.push(
-      trans_date:   Date.strptime(selector[0].text.strip.gsub(/\"/,''), DATE_DMY).to_json,
-      details:      selector[1].text.strip.gsub(/\"/,''),
-      amount:       selector[2].text.strip.gsub(/\"/,''),
-      currency:     selector[3].text.strip.gsub(/\"/,''),
+      trans_date:   Date.strptime(tds[0], DATE_DMY).to_json.gsub(/\"/,''),
+      details:      tds[1],
+      amount:       tds[2],
+      currency:     tds[3],
       post_date:    post_d,
       comission:    comission_element,
       total_amount: total_element
@@ -39,11 +40,10 @@ end
 def other_trans_array (array, hash)
   array.each do |element|
     selector = element.css('td font tt')
-    units    = selector
-    tds      = units.map { |td| td.text.strip.gsub(/\"/,'') }
+    tds      = selector.map { |td| td.text.strip.gsub(/\"/,'') }
     hash.push(
-      post_date:      Date.strptime(tds[0], DATE_DMY).to_json,
-      trans_date:     Date.strptime(tds[1], DATE_DMY).to_json,
+      post_date:      Date.strptime(tds[0], DATE_DMY).to_json.gsub(/\"/,''),
+      trans_date:     Date.strptime(tds[1], DATE_DMY).to_json.gsub(/\"/,''),
       details:        tds[2],
       trans_amount:   tds[3],
       trans_currency: tds[4],
